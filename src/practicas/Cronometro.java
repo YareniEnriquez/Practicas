@@ -45,10 +45,10 @@ private ActionListener acciones = new ActionListener(){
             actualizarEtiquetaTiempo();
         }
     
-}
+};
 
 private void actualizarEtiquetaTiempo(){
-    String texto = (horas<=9?"0":"")+horas+:+(minutos<=9?"0":"")+minutos+:+(segundos<=9?"0":"")+segundos+:+(centecimas_segundos<=9?"0":"")+centecimas_segundos;
+    String texto = (horas<=9?"0":"")+horas+":"+(minutos<=9?"0":"")+minutos+":"+(segundos<=9?"0":"")+segundos+":"+(centecimas_segundos<=9?"0":"")+centecimas_segundos;
     etiqueta_tiempo.setText("texto");
 }
     
